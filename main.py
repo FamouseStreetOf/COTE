@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-from setting import TG_TOKEN, TG_API_URL
+from settings import TG_TOKEN, TG_API_URL
 
 bot = telebot.TeleBot(TG_TOKEN)
 
