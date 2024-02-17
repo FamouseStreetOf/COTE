@@ -1,7 +1,8 @@
 import telebot
 from telebot import types
+from settings import TG_TOKEN, TG_API_URL
 
-bot = telebot.TeleBot('6790385402:AAFdl2qw7ZeiOTf2ULsxViANJyifq4xnEEs')
+bot = telebot.TeleBot(TG_TOKEN)
 
 
 name = ''
